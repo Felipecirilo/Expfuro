@@ -1,0 +1,450 @@
+/*--> MENU-GERAL <--*/
+nav {
+    width: 100%;
+    height: 77px;
+    position: fixed;
+    background-color:#000;
+    z-index: 3;
+}
+
+nav img {
+    position: fixed;
+    left:5px;top:0px;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+nav ul#menu-desktop {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul#menu-desktop li {
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul#menu-desktop li a {
+    padding: 30px 25px;
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+    margin-right: -3px;
+    font-family: Roboto, sans-serif;
+    font-size: 85%;
+    letter-spacing: 0.60;
+}
+
+nav ul li a:hover {
+    background-color: rgba(50,50,205,0.8);
+}
+
+nav ul#menu-mobile, nav div#menu-btn, h4.aviso {
+    display: none;
+} 
+
+/*--> MENU-HOME <--*/
+div#home img {
+    position: fixed;
+    left:5px;top:0px;
+    border: 1px solid white;
+    z-index: 1;
+}
+
+div#home header {
+    height: 800px;
+    margin: 0 auto;
+    background-image: url(../_img/dispositivo.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+div#home header h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 300%;
+    color:black;
+    text-align: center;
+    padding-top: 45%;
+    text-shadow: 0 0 7px white; 
+    margin:0 auto;
+}
+
+/*--> TEXTOS <--*/
+article {
+    margin-top: 80px;
+    float: left;
+    margin-left:65px;
+    width:90%;
+}
+
+article header h1{
+    font-family: Roboto, sans-serif;
+    font-size: 200%;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+article header.dispositivo {
+    margin-left: 40px;
+    margin-bottom: -20px;
+}
+
+article p {
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    color:darkslategray;
+    text-align: justify;
+    text-indent: 3em;
+    letter-spacing:0.04em;
+    margin:0.5em;
+}
+
+ul.materiais {
+    text-indent: 3em;
+    margin: 0;
+    padding:5px;
+}
+
+ul.materiais p {
+    text-align: left;
+    letter-spacing:0.01em;
+    padding: 2px;
+}
+
+ul.referencias {
+    text-indent: 3em;
+    margin: 0;
+}
+
+ul.referencias p {
+    text-align: left;
+    letter-spacing:0.01em;
+    padding: 3px;
+}
+
+/* --> IMAGENS <--*/
+#img_centro {
+    text-align: center;
+    margin-bottom: 1px;
+    margin: 0;
+}
+
+#img_canto {
+    float: left; 
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.img1 {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    border: 1px solid #000;
+}
+
+.img2 {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+}
+
+.tab1, .tab2 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.tab1 img {
+    width: 50%;
+    height: auto;
+}
+
+.img3, .img4, .img5, .img6, .img7 {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.img3 img, .img4 img {
+    width: 50%;
+    height: auto;   
+}
+
+.img5 img {
+    width: 40%;
+    height: auto;
+}
+
+.img6 img {
+    width: 25%;
+    height: auto;
+}
+
+.grafico1 {
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+}
+   
+/* --> LEGENDAS <--*/
+figcaption {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 0.9em;
+}
+
+#img_canto figcaption{
+    margin: 0;
+    padding-bottom: 7px;
+}
+
+.tab1 figcaption {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+} 
+
+.tab2 figcaption {
+    margin-bottom: -28px;
+    padding-top: 10px;
+}
+
+.img3, .img4, .img5, .img6, .img7 figcaption {
+    margin-bottom: -15px;
+}
+
+.grafico1 figcaption {
+    padding-bottom: 30px;
+}
+
+/*--> AUTORES <--*/
+body {
+    margin: 0 auto; 
+    height: 100%
+}
+
+header.autores {
+    font-size: 150%;
+    text-align: center;
+}
+
+.autores img {
+    margin: 0 auto;
+    margin-top: -23px;
+    border: 2px solid #ccc;
+}
+
+header.autores h1 {
+    font-family: Roboto, sans-serif;
+}
+
+#janela {
+    width: 860px;
+    height: 680px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.janela_autor {
+    position:relative;
+    float:left;
+    margin: 0 auto;
+    width:256px;
+    height:256px;
+    border:solid 5px #008B9C;
+    background-color:#1A1A1A;
+    margin:0 20px 30px 0;
+    box-shadow:2px 2px 2px #333;
+}
+
+.janela_foto {
+    position:absolute;
+    top:0;left:0;
+    width:256px;
+    height:256px;
+    z-index:1;
+    clip:rect(0 256px 256px 0);
+    clip-path:inset(0);
+}
+
+.janela_texto {
+    position: absolute;
+    top: 225px;
+    left: 0;
+    width: 246px;
+    height: 150px;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 2;
+    padding: 5px;
+    cursor: pointer;
+
+    transition:all 0.5s ease-out;
+}
+
+.janela_texto:hover {
+    top: 100px;
+}
+
+h3 {
+    font-family: 'PT Mono', sans-serif;
+    text-align: center;
+    font-size:18px;
+    color:#008B9C;	
+    letter-spacing:-0.1em;
+    margin:0;
+}
+
+p {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:13.2px;
+    color:#fff;
+    line-height:150%;
+}
+
+.azul {
+    color:#008B9C;	
+}
+
+/*--> FORMULARIO <--*/
+main {
+    width: 100%;
+    min-height:500px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+main div.pergunta p {
+    width: 90%;
+    padding-left: 40px;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: darkslategray;
+}
+
+main div#janela_formulario {
+    width: 80%;
+    margin: 10px 200px 30px;
+}
+
+main div#janela_formulario img {
+    width: 35%;
+    float: left;
+    padding-top: 50px;
+}
+
+main div#janela_formulario form{
+    width: 30%;
+    margin: 30px auto;
+}
+
+main div#janela_formulario form h2 {
+    font-family: arial, sans-serif;
+    color:#9A9668; 
+}
+
+main div#janela_formulario form p {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    background: #12e896;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;  
+}
+  
+main div#janela_formulario form label {
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #696969;
+}
+
+main div#janela_formulario form input[type="text"] {
+    width:350px;
+    padding:10px;
+    border:1px solid #CDC99B;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+main div#janela_formulario form input[type="email"] {
+    width:350px;
+    padding:10px;
+    border:1px solid #CDC99B;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+main div#janela_formulario textarea {
+    font-family: arial, sans-serif;
+    width:350px;
+    height: 100px;
+    padding:10px;
+    border:1px solid #CDC99B;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+main div#janela_formulario form input#enviar_formulario[type="submit"] {
+    display: block;
+    padding:10px 20px;
+    color: #FFF;
+    border:0;
+    border-radius: 5px;
+    background-color: #4F4F4F;
+    outline: none;
+    cursor: pointer;
+}
+
+div#mensagem_erro {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-weight: 3em;
+    margin-top: 30px;
+    color: #000;
+    text-align: center; 
+}
+
+/*--> RODAPÉ <--*/
+footer {
+    width: 100%;
+    display: block;
+    bottom: 0px;
+    position: relative;
+    font-family: Roboto, sans-serif;
+    clear: both;
+    height: 70px;
+    padding-top: 5px;
+    font-size: 12px;
+    text-align: center;
+    background-color: gray;
+}
+
+
+
+
+
+
+
+

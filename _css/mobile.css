@@ -1,0 +1,217 @@
+/* --> MENU <--*/
+nav {
+    position: fixed;
+    left: 0;top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+}
+
+nav img {
+    width: 70px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+nav div#menu-btn {
+    position: absolute;
+    display: block;
+    top:20px;
+    right: 20px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+nav ul#menu-desktop {
+    display: none;   
+}
+
+nav ul#menu-mobile {
+    margin-top:70px;
+    padding: 0;
+}
+
+nav ul#menu-mobile li {
+    display: block;
+    width: 100%;
+    list-style-type: none;
+}
+
+nav ul#menu-mobile li a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    background-color: #1C1C1C;
+    padding: 20px 0;
+    border-bottom: 1px solid #FFF;
+
+    font-family: Roboto, sans-serif;
+    font-size: 90%;
+    letter-spacing: 0.6;
+} 
+
+/*--> MENU-HOME <--*/
+div#home header {
+    width: 100%;
+    height: 640px;
+}
+
+div#home header h1{
+    width: 85%;
+    font-size: 200%;
+    padding-top: 340px;
+    color: black;
+    text-shadow: 0 0 8px white;
+}
+
+
+/*--> TEXTOS <--*/
+article {
+    width:90%;
+    margin:0 auto;
+    float: left;
+    margin-left:10px;
+    margin-top: 50px;
+}
+
+article header h1, h2 {
+    text-align: center;
+}
+
+article p {
+    width: 100%;
+    text-indent: 1.8em;
+}
+
+ul.materiais {
+     text-indent: 2em;
+}
+
+ul.referencias {
+    text-indent: 2em;
+    margin-left: -40px;
+}
+
+/*--> IMAGENS <--*/
+#img_canto {
+    margin-bottom: 10px;
+}
+
+#img_canto img {
+    margin: 0 auto;
+    margin-left: -3px;
+    width:110%;
+}
+
+.img3 img, .img4 img, .img7 img{
+    width: 105%;
+    height: auto;
+}
+
+.img5 img, .img6 img {
+    width: 95%;
+    height: auto;
+    margin-left: 10px;
+}
+
+.tab1 img, .tab2 img{
+    width: 105%;
+    height: auto;
+}
+
+.img7 {
+    margin-bottom: -30px;
+}
+
+.grafico1 {
+    margin-bottom: -25px
+}
+
+.grafico1 img {
+    width: 105%;
+    height: auto;
+}
+
+/*--> LEGENDAS <--*/
+figcaption {
+    font-size: 0.8em;
+}
+
+/*--> AUTORES <--*/
+.autores img {
+    border: 0;
+    margin-top: -30px;
+    margin-bottom: -20px
+}
+
+#janela{
+    margin: 0 auto;
+    margin-top: -30px;
+    width: 10%;
+    height: 1900px;
+    margin-left: 45px;
+}
+
+.janela_autor {
+    display: block;
+    margin-bottom: 30px;
+}
+
+h4.aviso {
+    display: block;
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+.aviso {
+    font-family: Arial, sans-serif;
+    color: darkslategray;
+    font-size: 1.1em;
+}
+
+/*--> FORMULARIO <--*/
+main div.pergunta p {
+    margin-left:-23px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    text-align: justify;
+}
+
+main div#janela_formulario {
+    margin: 20px;
+}
+
+main div#janela_formulario img {
+    float: none;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 35px;
+}
+
+main div#janela_formulario form {
+    margin: 0 auto;
+    float: left;
+} 
+
+main div#janela_formulario form input[type="text"], main div#janela_formulario form input[type="email"], main div#janela_formulario textarea {
+    width:300px; 
+}
+
+main div#janela_formulario form input[type="submit"] {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+/*--> RODAPÉ <--*/
+footer {
+    margin: 0 auto;
+    width: 100%;
+    height: 90px;
+    padding-top: 1px;
+}
+
+
+
